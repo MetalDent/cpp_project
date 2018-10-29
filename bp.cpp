@@ -1,3 +1,9 @@
+//////////////////////////////////////////////
+// database dump folder should be in the project folder
+// room numbers should be present in db before program starts and in version 1, we cannot change them
+// 
+////////////////////////////////////////////////////
+
 //*: first do room works then student works
 
 //*: get all data in separate arrays when pogram starts
@@ -10,7 +16,6 @@ using namespace std;
 // *: two collection in mysql-> student, hostel(room numbers according to floor)
 //*: for first version consider there is only one block in the hostel
 //*: db-> hostel {room_number, floor}
-
 
 // *: when del and update, confirm with input "1" and "0"
 
@@ -39,10 +44,10 @@ class Hostel
     void stud_clear(); //remove all students
 
     void get_roominfo();
-    void room_add();
+    // void room_add();
     void room_search();
-    void room_remove();
-    int room_position(int n); //get floor
+    // void room_remove();
+    // int room_position(int n); //get floor
     int check_room(int roomid);
     void available_rooms();
 
@@ -107,19 +112,19 @@ program_open() {
 
     void stud_clear(); //remove all students
 
-    void get_roominfo(){
+    // void get_roominfo(){
 
-        // input room> get floor if success
-
-
-    }
+    //     // input room> get floor if success
 
 
-    void room_add(){
+    // }
 
-        // add room, floor        
 
-    }
+    // void room_add(){
+
+    //     // add room, floor        
+
+    // }
 
 
 
@@ -129,13 +134,13 @@ program_open() {
 
     }
 
-    void room_remove(){
+    // void room_remove(){
 
 
-    }
+    // }
 
 
-    int room_position(int n); //get floor
+    // int room_position(int n); //get floor
 
     int check_room(int room_id){
 
