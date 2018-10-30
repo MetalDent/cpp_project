@@ -30,7 +30,5 @@ vector<vector<string>> program_open()
 		dataList.push_back(vect);
 	}
 
-	file.close();
-
 	return dataList;
 }
