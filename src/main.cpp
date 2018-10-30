@@ -1,4 +1,10 @@
 #include<iostream>
+#include<fstream>
+#include<vector>
+#include<string>
+#include<algorithm>
+#include<iterator>
+#include<boost/algorithm/string.hpp>
 #include "../include/classes.h"
 #include "../include/functions.h"
 
