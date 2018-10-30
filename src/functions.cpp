@@ -15,7 +15,7 @@ int fooFun()
     return a;
 }
 
-vector<vector<string>> get_data()
+vector<vector<string>> program_open()
 {
 	string file_name = "../database/db.csv", delimeter = ",";
 
