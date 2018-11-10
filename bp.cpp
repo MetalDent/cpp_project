@@ -25,7 +25,7 @@ using namespace std;
 
 // *: when del and update, confirm with input "1" and "0"
 
-class Hostel
+class Hostel    //let's make two classes: one for students and other for admin/staff and inherit them 
 {
     vector<int>rnumber;
     vector<int>rfloor;
@@ -42,12 +42,12 @@ class Hostel
     void add_student();
     
 
-    void stud_del();
+    void stud_del();    //let's keep this only for the admin/staff
 
     void get_stud_info();
     void stud_all_display();
     void stud_search();
-    void stud_clear(); //remove all students
+    void stud_clear(); //remove all students    //this also only for admin/staff
 
     void get_roominfo();
     // void room_add();
@@ -55,7 +55,7 @@ class Hostel
     // void room_remove();
     // int room_position(int n); //get floor
     int check_room(int roomid);
-    void available_rooms();
+    void available_rooms(); //this also only for admin/staff
 
     
 
